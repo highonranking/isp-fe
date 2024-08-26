@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-// Importing images directly
 import Hero1 from '../assets/Hero1.jpg';
 import Hero2 from '../assets/Hero2.jpg';
 import Hero3 from '../assets/Hero3.jpg';
@@ -30,8 +29,8 @@ const Hero = () => {
         <h1 className="text-white text-5xl md:text-7xl font-bold mb-4">
             Affordable, Fastest Wifi in Delhi NCR
         </h1>
-        <button className="bg-white text-gray-800 border-2  font-bold hover:text-gray-900 border-black mt-24 px-36 py-3 rounded-lg block text-lg">
-          Get Started
+        <button className="bg-white text-gray-800 border-2 hover:opacity-60 hover:text-white hover:bg-black font-bold  border-black mt-24 px-36 py-3 rounded-lg block text-lg">
+          <span className="hover:opacity-100">Get Started</span>
         </button>
       </div>
     </div>

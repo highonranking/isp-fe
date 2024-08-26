@@ -33,7 +33,7 @@ const PlanCard = ({ title, price, features, buttonText }) => {
         </ul>
       </div>
       <div className="relative z-10 p-8">
-        <button className="w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-4 rounded-lg text-lg font-semibold hover:from-blue-600 hover:to-indigo-600 transition-colors duration-300 shadow-lg">
+        <button className="w-full bg-gradient-to-r from-gray-700 to-gray-800 text-white py-4 rounded-lg text-lg font-semibold hover:from-gray-800 hover:to-gray-900 transition-colors duration-300 shadow-lg">
           {buttonText}
         </button>
       </div>
