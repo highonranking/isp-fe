@@ -16,14 +16,14 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out ${
         isSticky
-          ? "text-white shadow-lg p-4 bg-black opacity-70  rounded-none"
-          : "bg-white mt-24 mx-12 px-16 py-4 opacity-70 rounded-lg"
+          ? "bg-black text-white shadow-lg py-2 px-4 sm:py-4 sm:px-6 opacity-90 rounded-none"
+          : "bg-white text-black lg:mt-24 lg:mx-4 sm:mx-12 px-4 sm:px-16 py-2 sm:py-4 opacity-95 rounded-lg"
       }`}
     >
-      <nav className="flex justify-between  items-center">
-        <div className="text-2xl font-bold">[Name]</div>
+      <nav className="flex justify-between items-center">
+        <div className="text-xl sm:text-2xl font-bold">[Name]</div>
         <div>
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-4 sm:space-x-6 text-sm sm:text-base">
             <li>
               <a href="#" className="hover:text-gray-500">
                 Home
